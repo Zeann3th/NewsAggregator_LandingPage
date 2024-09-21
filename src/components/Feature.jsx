@@ -9,8 +9,9 @@ const features = new Map([
 
 const Feature = () => {
   return (
-    <div className="bg-gradient-to-br from-green-400 to-blue-600 py-20">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-20">
+    <div className="bg-gradient-to-br from-green-400 to-blue-600 p-20">
+      <h1 className="text-white font-bold mb-10 text-5xl">Why BitDigest?</h1>
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {Array.from(features).map(([k, v]) => (
           <FeatureItem title={k} body={v} />
         ))}
