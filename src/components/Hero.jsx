@@ -9,7 +9,7 @@ const Hero = () => {
         News
       </h1>
       <div className="flex justify-center items-center">
-        <video controls src="./tests.mp4" width={1024} height={576}></video>
+        <video controls src="./demo.mp4" width={1024} height={576}></video>
       </div>
     </div>
   )
